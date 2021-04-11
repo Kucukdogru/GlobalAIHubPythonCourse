@@ -9,65 +9,39 @@
 liste = list(range(10))
 
 
-# In[77]:
-
-
 type(liste)
 
 
 # In[78]:
 
 
-liste
-
-
-# In[79]:
-
-
-type(liste)
-
-
-# In[80]:
+print(liste)
 
 
 half1 = [int(i) for i in liste[:len(liste)//2]]
 half2 = [int(i) for i in liste[len(liste)//2:]]
 
 
-# In[81]:
+print(half1)
 
 
-half1
 
-
-# In[82]:
-
-
-half2
-
-
-# In[83]:
+print(half2)
 
 
 type(half2)
 
 
-# In[84]:
+
+print(type(half1))
 
 
-type(half1)
 
 
-# In[85]:
+liste = [half2, half1]
+print(liste)
 
 
-liste = [half2 , half1]
-
-
-# In[86]:
-
-
-liste
 
 ### Ask the user to input a single digit integer to a variable 'n'. Then, print out all of the even numbers from 0 to n (including n)
 number = int(input("Please enter a single digit positive number: "))
