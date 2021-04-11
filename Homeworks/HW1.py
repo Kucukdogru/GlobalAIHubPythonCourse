@@ -69,3 +69,10 @@ liste = [half2 , half1]
 
 liste
 
+### Ask the user to input a single digit integer to a variable 'n'. Then, print out all of the even numbers from 0 to n (including n)
+
+number = int(input("Please enter a single digit number: "))
+myList = list(range(number+1))
+for x in myList[0:number+1:2]:
+    print(x)
+
